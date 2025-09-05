@@ -1,0 +1,42 @@
+html{
+    background-color: black;
+    color:white;
+    padding-bottom:50px;
+    text-align: center;
+}
+
+.lyrics{
+    padding-left:41%;
+    padding-right:41%;
+    font-family: "rasa", serif;
+    font-weight: 300;
+    font-style: normal;
+    padding-bottom:40px;
+}
+
+h1, h2{
+    font-family: "cofo-raffine", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+h2{
+    margin:0px;
+    padding-top:30px;
+    text-transform: uppercase;
+}
+
+h1{
+    font-size:70px;
+    margin-bottom:0px;
+    padding-top:30px;
+}
+
+.kehl{
+    width:30%;
+}
+
+
+
+
+
