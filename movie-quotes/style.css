@@ -1,0 +1,36 @@
+p{
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+    font-family: "ltr-beosans-soft-r11-plain", sans-serif;
+    line-height: 30px;
+    padding-bottom:30px;
+}
+
+h1{
+    font-family: "battery-park", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:70px;
+    text-align:center;
+}
+
+
+b{
+    font-family: "ltr-beosans-hard-r21-bold", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    padding-bottom: 50px;
+}
+
+.image1{
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding-top:50px;
+  
+}
