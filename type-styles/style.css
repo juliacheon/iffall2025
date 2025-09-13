@@ -1,0 +1,79 @@
+html{
+    padding: 5% 25%;
+    font-family: "Raleway", sans-serif;
+    margin:0;
+}
+
+header{
+    text-align:center;
+}
+
+h1{
+    font-size:70px;
+    margin-bottom:30px;
+    margin-top:0;
+}
+
+.intro{
+    font-size:24px;
+    margin-bottom:30px;
+}
+
+.fontWeight, .fontStyle, .letterSpacing, .textDecoration, .textTransform{
+    background-color: rgb(235, 235, 235);
+    padding: 10px 20px;
+    padding-bottom:20px;
+    margin: 30px 0;
+    box-shadow: 0px 5px 10px rgb(183, 183, 183);
+
+}
+
+#bold{
+    font-weight: bold;
+}
+
+#italic{
+    font-style:italic;
+}
+
+.fontWeight p, .fontStyle p, .letterSpacing p, .textDecoration p, .textTransform p{
+    margin:0;
+    padding-bottom:15px;
+    padding-top:5px;
+}
+
+#rem{
+    letter-spacing:0.3rem;
+}
+
+#rem2{
+    letter-spacing:-0.06rem;
+}
+
+code{
+    text-decoration: underline;
+}
+
+#underline{
+    text-decoration: underline;
+}
+
+#line-through{
+    text-decoration: line-through;
+}
+
+#overline{
+    text-decoration: overline;
+}
+
+#uppercase{
+    text-transform: uppercase;
+}
+
+#lowercase{
+    text-transform: lowercase;
+}
+
+#capitalize{
+    text-transform: capitalize;
+}
