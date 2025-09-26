@@ -1,0 +1,51 @@
+html{
+    padding:5% 15%;
+    margin:0;
+    font-family: "leida", sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+body{
+    margin:0;
+}
+
+header{
+    margin-bottom:1.5rem;
+}
+
+ul, p{
+    margin:0;
+}
+
+h3{
+    text-decoration: underline;
+    margin-bottom:5px;
+}
+
+h4{
+    margin-bottom:0;
+}
+
+.source a, .document a {
+    text-decoration: none;
+}
+
+.source a:hover, .document a:hover {
+    color:rgb(214, 217, 255);
+}
+
+.images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 0;
+
+}
+
+ol{
+    padding-bottom:30px;
+}
+
+#imagesT{
+    padding-bottom: 20px;
+}
