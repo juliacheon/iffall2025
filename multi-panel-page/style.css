@@ -1,0 +1,120 @@
+*{
+    margin:0;
+}
+
+body{
+    font-family: "Archivo Narrow", sans-serif;
+}
+
+header{
+    text-align: center;
+    padding: 152px 0 180px 0;
+    color:white;
+}
+
+h1{
+    font-size:80px;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    padding: 40px 0 32px 0;
+}
+
+h3{
+    font-size:30px;
+    position:relative;
+    bottom:3px;
+}
+
+.main{
+    background-color: rgb(8, 23, 8);
+    color:white;
+}
+
+.main p{
+    margin:0 0 18px 0;
+    padding: 0 18% 0 18%;
+    font-size:18px;
+    line-height: 25px;
+}
+
+.bottom{
+    background-color: rgb(8, 23, 8);
+    color:white;
+}
+
+header{
+    background-image: url('images/trees.jpg');
+}
+
+.main img{
+    width:400px;
+    height:300px;
+    float:right;
+    margin: 0 0 40px 40px;
+}
+
+.main{
+    padding-bottom:38px;
+}
+
+.grid img{
+    width:200px;
+    height:150px;
+    object-fit: cover;
+    object-position: 0 -50px;
+}
+
+ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    row-gap: 24px;
+}
+
+li{
+    display:flex;
+}
+
+.grid{
+    padding: 0 15.3% 65px 15.3%;
+
+}
+
+.grid p{
+    font-size: 18px;
+}
+
+.grid img{
+    padding-right:12px;
+}
+
+h4{
+    font-size:20px;
+    margin-bottom:8px;
+}
+
+.text {
+    max-width: 230px; 
+    flex: 1;        
+    word-wrap: break-word;
+}
+
+.bottom h5{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    line-height:35px;
+    letter-spacing: 0.3px;
+}
+
+.bottom{
+    padding: 0 27% 100px 27%;
+}
+
+footer{
+    padding:45px 19% 0 19%;
+    font-size:18px;
+}
