@@ -40,6 +40,10 @@ h3{
     line-height: 25px;
 }
 
+.grid{
+    background-color: rgb(255, 255, 255);
+}
+
 .bottom{
     background-color: rgb(8, 23, 8);
     color:white;
@@ -117,4 +121,5 @@ h4{
 footer{
     padding:45px 19% 0 19%;
     font-size:18px;
+    background-color: rgb(255, 255, 255);
 }
