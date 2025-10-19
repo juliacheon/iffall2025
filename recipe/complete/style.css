@@ -1,0 +1,279 @@
+*{
+    margin:0;
+}
+
+header{
+    font-family: "finalsix", sans-serif;
+    text-align: center;
+    background-color: rgb(27, 23, 20);
+    color:white;
+    padding: 1em 0 1em 0;
+    font-weight: 600;
+}
+
+html{
+    font-family: "the-seasons", sans-serif;
+}
+
+#intro{
+    display:flex;
+    align-items: stretch;
+}
+
+.imageFinal {
+    width:60%;
+    height:auto;
+    overflow:hidden;
+}
+
+.imageFinal img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.introContent{
+    width:50%;
+    padding: 4rem 5rem 3rem 5rem;
+}
+
+.introContent p{
+    font-family: "finalsix", sans-serif;
+    font-size:12px;
+}
+
+.introContent h1{
+    font-size:80px;
+    font-weight: 600;
+    line-height: 80px;
+    margin-bottom:40px;   
+}
+
+.labels ul{
+    font-family: "finalsix", sans-serif;
+    display:flex;
+    list-style: none;
+    padding-left:0;
+    font-size:11px;
+    padding-bottom:7px;
+}
+
+.labels li{
+    margin-right:15px;
+    padding: 0.45em 0.75em 0.45em 0.75em;
+    background-color: rgb(27, 23, 20);
+    color:white;
+    border-radius: 0.5rem;
+}
+
+#prep{
+    display:flex;
+}
+
+#prep ul{
+    font-family: "finalsix", sans-serif;
+}
+
+.ingredients, .equipment{
+    width:50%;
+}
+
+.ingredients{
+    padding: 3rem 2rem 1.5rem 5rem;
+}
+
+.equipment{
+    padding:3rem 5rem 1.5rem 2rem;
+}
+
+.ingredients h2, .equipment h2{
+    text-align: center;
+    padding: 3px 0 3px 0;
+}
+
+.ingredients ul, .equipment ul{
+    padding-top:12px;
+}
+
+.ingredients li, .equipment li{
+    padding-bottom: 15px;
+}
+
+#instructions{
+    padding: 0 5rem 3rem 5rem;
+}
+
+#instructions h1{
+    font-size:50px;
+    padding: 8px 0 8px 0;
+}
+
+.step1{
+    padding: 2rem 0 2rem 0;
+}
+
+.image1{
+    width:50%;
+    margin: 0 auto;
+}
+
+.image1 img{
+    width:100%;
+}
+
+.content1{
+    font-family: "finalsix", sans-serif;
+    padding:0 3rem 2rem 3rem;
+}
+
+.divide {
+    width:80%;
+    margin: 0 auto;
+}
+
+.divide hr{
+    width:100%;
+}
+
+.final{
+    text-align:center;
+    font-size:24px;
+}
+
+.final p{
+    padding: 15px 0 15px 0;
+}
+
+
+
+
+footer{
+    font-family: "finalsix", sans-serif;
+    background-color: rgb(27, 23, 20);
+    color:rgb(205, 205, 205);
+    padding: 3rem 5rem 3rem 5rem;
+    font-size:12px;
+    text-align: center;
+}
+
+footer a{
+    color:rgb(155, 193, 168);
+}
+
+
+@media (max-width:740px){
+    #intro{
+        flex-wrap:wrap;
+    }
+
+    .imageFinal {
+        width:100%;
+    }
+
+    .introContent{
+        width:100%;
+    }
+
+    #prep{
+        flex-wrap: wrap;
+    }
+    .ingredients, .equipment{
+        width:100%;
+    }
+
+    .ingredients{
+        padding: 3rem 5rem 0 5rem;
+    }
+    
+    .equipment{
+        padding:3rem 5rem 2rem 5rem;
+    }
+
+    .content1{
+        font-size:14px;
+        padding:0 2rem 2rem 2rem;
+    }
+
+    .image1{
+        width:90%;
+    }
+
+    #instructions h1{
+        font-size:45px;
+        line-height:52px;
+    }
+}
+
+@media (max-width:670px){
+    .introContent h1{
+        font-size:55px;
+        line-height:55px;
+    }
+
+}
+
+@media (max-width:490px){
+    .introContent{
+        padding: 3rem 3rem 3rem 3rem;
+    }
+
+    .introContent h1{
+        font-size:45px;
+        line-height:45px;
+    }
+
+    .ingredients li, .equipment li{
+        padding-bottom: 8px;
+    }
+
+    .ingredients{
+        padding: 3rem 3rem 0 3rem;
+    }
+    
+    .equipment{
+        padding:3rem 3rem 2rem 3rem;
+    }
+
+    #instructions{
+        padding: 0 3rem 3rem 3rem;
+    }
+
+    #instructions h1{
+        font-size:35px;
+        line-height:35px;
+    }
+
+    .final{
+        font-size:20px;
+    }
+
+    .final p{
+        padding: 8px 0 8px 0;
+        line-height:23px;
+    }
+
+    .image1{
+        width:80%;
+    }
+
+    .step1{
+        padding: 1.5rem 0 1.5rem 0;
+    }
+    
+    .content1{
+        padding: 0 1rem 1rem 1rem;
+    }
+}
+
+@media (max-width:425px){
+    .labels ul{
+        font-size:8px;
+    }
+
+    .labels li{
+        margin-right:5px;
+        border-radius: 0.35rem;
+    }
+}
