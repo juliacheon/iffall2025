@@ -1,0 +1,1088 @@
+*{
+    margin:0;
+    font-family: "jaf-lapture", serif;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h2{
+    font-size: 90px;
+    text-transform: uppercase;
+}
+
+p{
+    font-size:20px;
+    font-family: "mendl-serif-dawn", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h3{
+    font-family: "jaf-lapture," serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size:60px;
+    padding-top:30px;
+    color: rgb(255, 119, 0);
+}
+
+/* Header */
+
+header{
+    width:100%;
+    background-image: url("image/bg1.jpg");
+    background-size:cover;
+    background-position:top center;
+    position:relative;
+    padding-top: 80px;
+}
+
+.icon a{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    transition: transform 0.6s ease, text-shadow 0.6s ease;
+}
+
+.icon a:hover{
+    transform: scale(1.12);
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.85), 0 0 30px rgba(220, 240, 255, 0.6), 0 0 45px rgba(200, 240, 255, 0.5);
+}
+
+h5{
+    font-weight:100;
+}
+
+.headerImg .mainImg{
+    clip-path:ellipse(45% 50% at 50% 50%);
+    width:450px;
+    height:500px;
+    object-fit: cover;
+    z-index:999;
+}
+
+.headerImg{
+    display:flex;
+    object-position: center;
+    align-items:center;
+    justify-content: center;
+    padding:65px 0 120px 0;
+    filter: drop-shadow(0 0.7rem 20px rgba(71, 81, 89, 0.8));
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color:#87AFCD;
+}
+
+.navElement ul{
+    display:flex;
+    list-style-type: none;
+}
+
+.navElement li{
+    padding-left:35px;
+}
+
+.navElement a{
+    text-decoration: none;
+    color:white;
+    font-size:18px;
+    text-transform:uppercase;
+}
+
+.side1, .side2{
+    clip-path:ellipse(45% 50% at 50% 50%);
+    width:310px;
+    height:350px;
+    object-fit: cover;
+}
+
+.side1{
+    position:relative;
+    left:130px;
+}
+
+.side2{
+    position:relative;
+    right:130px;
+}
+
+.title{
+    position:absolute;
+    bottom:60px;
+    left:70px;
+}
+
+.title h1{
+    color:white;
+    font-size:160px;
+    line-height:140px;
+}
+
+.title h5{
+    color:white;
+    font-weight:100;
+    font-size:40px;
+}
+
+.navElement a {
+    position: relative;
+    color: #ffffff;
+    text-decoration: none;
+    padding-bottom: 3px;
+}
+
+.navElement a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background: #ffffff;
+    transition: width 0.3s ease;
+}
+
+.navElement a:hover::after {
+    width: 100%;
+}
+
+.headerImg img {
+    transition: transform 0.4s ease;
+    cursor: pointer;
+    transform-origin: center;
+}
+
+.headerImg img.side1:hover {
+    transform: scale(1.05);
+}
+
+.headerImg img.mainImg:hover {
+    transform: scale(1.05);
+}
+
+.headerImg img.side2:hover {
+    transform: scale(1.08);
+}
+
+
+
+/* Intro 1 */
+#intro1{
+    padding: 0 90px 0 90px;
+    background-image: url("image/bg2.jpg");
+    background-size:cover;
+    background-position: right center;
+    margin-top:110px;
+}
+
+#intro1 h2{
+    position:relative;
+    bottom:60px;
+    color:#5B1D00;
+}
+
+#intro1 p{
+    margin-left:40px;
+    margin-right:55%;
+    margin-top:230px;
+    padding-bottom:35px;
+    margin-bottom:110px;
+}
+
+/* Intro 2 */
+
+#intro2{
+    display:flex;
+    background-color:#FFF2D8;
+    background-image: url("image/bg3.jpg");
+    background-size:100%;
+    align-items: stretch;
+}
+
+.HelenIntroText{
+    padding: 50px 60px 30px 60px;
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+}
+
+.HelenImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
+}
+
+.HelenImg{
+    flex: 0 0 40%; 
+    overflow: hidden; 
+}
+
+h3 {
+    transition: transform 0.5s ease, text-shadow 0.5s ease;
+}
+
+h3:hover {
+    transform: scale(1.03);
+    text-shadow: 0 0 6px rgb(255, 145, 0), 0 0 12px rgba(255, 210, 155, 0.867), 0 0 18px rgb(255, 232, 211);
+}
+
+/* Family */
+
+#family{
+    padding: 0 90px 0 90px;
+    margin-top:110px;
+    background-color:rgb(255, 119, 0);
+    color:white;
+    background-image: url("image/bg4.jpg");
+    background-size:cover;
+}
+
+#family p {
+    margin-left:10%;
+    padding-bottom:50px;
+}
+
+.imageSet2{
+    position: relative;
+    right:20px;
+    padding-bottom:50px;
+    filter: drop-shadow(0 0.7rem 10px rgba(103, 28, 3, 0.8));
+}
+
+.imageSet2 img{
+    clip-path:ellipse(47% 50% at 50% 50%);
+    width:300px;
+    height:350px;
+    object-fit: cover;
+}
+
+.imageSet2 .middle{
+    position:relative;
+    right:90px;
+}
+
+.imageSet2 .right{
+    position:relative;
+    right:180px;
+}
+
+#family h2{
+    padding: 30px 0 30px 0;
+}
+
+.imageSet2 .left:hover {
+    transform: scale(1.05);
+}
+
+.imageSet2 .middle:hover {
+    transform: scale(1.05);
+}
+
+.imageSet2 .right:hover {
+    transform: scale(1.08);
+}
+
+.imageSet2 img {
+    transition: transform 0.4s ease;
+    cursor: pointer;
+    transform-origin: center;
+}
+
+
+/* Trojan */
+
+#trojan{
+    padding: 0 90px 0 90px;
+    background-image: url("image/bg5.jpg");
+    background-size:cover;
+}
+
+#trojan h2{
+    color:white;
+    padding-top:55px;
+}
+
+#trojan p{
+    color:white;
+}
+
+.trojanImage1, .trojanImage2{
+    filter: drop-shadow(0 0.7rem 10px rgba(0, 0, 0, 0.8));
+}
+
+.trojanImage1 img, .trojanImage2 img{
+    clip-path:ellipse(47% 50% at 50% 50%);
+    width:300px;
+    height:350px;
+    object-fit: cover;
+}
+
+.trojanPart1{
+    display:flex;
+    padding-top:10px;
+    padding-bottom:40px;
+}
+
+.trojanText1{
+    margin-left:10px;
+    padding-right:70px;
+    padding-top:20px;
+}
+
+.trojanPart2{
+    display:flex;
+    padding-bottom:70px;
+}
+
+.trojanText2{
+    padding-top:20px;
+    padding-left:70px;
+}
+
+.trojanImage2 img{
+    display:block;
+    margin-bottom:40px;
+}
+
+.trojanImage1 img:hover, .trojanImage2 img:hover {
+    transform: scale(1.08);
+}
+
+#trojan img {
+    transition: transform 0.4s ease;
+    cursor: pointer;
+    transform-origin: center;
+}
+
+
+/* Source */
+#source{
+    padding: 0 90px 70px 90px;
+}
+
+#source h2{
+    padding-top:55px;
+    color:#FF8844;
+}
+
+#source p{
+    color:#FF8844;
+    padding-top:30px;
+}
+
+/* Footer */
+footer{
+    text-align: center;
+    padding: 60px 40px;
+    background-image: url("image/bg1.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+footer p{
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+footer a{
+    text-decoration: none; 
+    color:rgb(31, 56, 111);
+}
+
+@media (max-width:1255px){
+    #intro1 {
+        background-position: left center;
+    }
+
+    #intro1 p {
+        margin-right:400px
+    }
+
+}
+
+@media (max-width:1200px){
+    .navElement a{
+        font-size:15px;
+    }
+
+    .headerImg .mainImg{
+        clip-path:ellipse(45% 50% at 50% 50%);
+        width:350px;
+        height:400px;
+    }
+
+    .title{
+        bottom:60px;
+        left:50px;
+    }
+    
+    .title h1{
+        color:white;
+        font-size:100px;
+        line-height:100px;
+    }
+    
+    .title h5{
+        color:white;
+        font-weight:100;
+        font-size:30px;
+    }
+
+    #intro1 h2{
+        font-size:70px;
+        bottom:40px;
+    }
+
+    #intro1{
+        margin-top:90px;
+        padding-left:50px;
+        padding-right:50px;
+    }
+
+    #intro1 p{
+        margin-left:10px;
+        margin-right:40%;
+        margin-top:70px;
+        margin-bottom:90px;
+        font-size:18px;
+        padding-bottom:50px;
+    }
+
+    #intro1 p, #intro2 p, #family p, #trojan p, #source p{
+        font-size:18px;
+    }
+
+    #intro2 h3{
+        font-size:45px;
+        line-height:47px;
+    }
+
+    .HelenIntroText{
+        padding-bottom:50px;
+        padding-left:50px;
+        padding-right:50px;
+    }
+
+    #family{
+        padding-left:50px;
+        padding-right:50px;
+    }
+
+    #family h2{
+        font-size:70px;
+        line-height:72px;
+        padding-top:40px;
+    }
+
+    .imageSet2{
+        right:20px;
+        padding-bottom:50px;
+    }
+    
+    .imageSet2 img{
+        clip-path:ellipse(47% 50% at 50% 50%);
+        width:250px;
+        height:300px;
+    }
+    
+    .imageSet2 .middle{
+        right:90px;
+    }
+    
+    .imageSet2 .right{
+        right:180px;
+    }
+
+    #trojan{
+        padding-left:50px;
+        padding-right:50px;
+    }
+
+    #trojan h2{
+        font-size:70px;
+        padding-top:40px;
+    }
+
+    #source{
+        padding-left:50px;
+        padding-right:50px;
+    }
+
+    #source h2{
+        font-size:70px;
+        padding-top:40px;
+    }
+
+    .trojanImage1 img, .trojanImage2 img{
+    clip-path:ellipse(47% 50% at 50% 50%);
+    width:300px;
+    height:350px;
+    object-fit: cover;
+    }
+}
+
+
+@media (max-width:895px){
+    .navElement a{
+        font-size:14px;
+    }
+
+    .navElement li{
+        padding-left:20px;
+    }
+
+    #intro1 p, #intro2 p, #family p, #trojan p, #source p{
+        font-size:16px;
+        line-height:19px;
+    }
+
+    .icon p{
+        font-size:15px;
+    }
+
+    #intro2{
+        display:block;
+    }
+
+    .HelenImg img{
+        width: 100%;
+        height: 350px;
+        object-fit: cover; 
+        display: block;
+        object-position: center -90px;
+    }
+
+    .imageSet2 img{
+        clip-path:ellipse(47% 50% at 50% 50%);
+        width:220px;
+        height:270px;
+    }
+}
+
+@media (max-width:785px){
+    header{
+        padding-top:40px;
+    }
+
+    .navElement ul{
+        display:block;
+        text-align:right;
+        line-height:40px;
+    }
+
+    nav{
+        background-color:transparent;
+        align-items: initial;
+        position:absolute;
+    }
+
+    .icon{
+        padding-top:10px;
+    }
+
+    .headerImg .mainImg{
+        clip-path:ellipse(45% 50% at 50% 50%);
+        width:300px;
+        height:350px;
+    }
+
+    .side1, .side2{
+        clip-path:ellipse(45% 50% at 50% 50%);
+        width:270px;
+        height:300px;
+        object-fit: cover;
+    }
+
+    .title{
+        bottom:60px;
+        left:40px;
+    }
+    
+    .title h1{
+        color:white;
+        font-size:80px;
+        line-height:80px;
+    }
+    
+    .title h5{
+        color:white;
+        font-weight:100;
+        font-size:25px;
+    }
+
+    .imageSet2 img{
+        clip-path:ellipse(47% 50% at 50% 50%);
+        width:200px;
+        height:250px;
+    }
+
+    .trojanImage1 img, .trojanImage2 img{
+        clip-path:ellipse(47% 50% at 50% 50%);
+        width:250px;
+        height:300px;
+        object-fit: cover;
+    }
+
+    .trojanText1{
+        padding-right:20px;
+    }
+
+    .trojanText2{
+        padding-left:20px;
+    }
+
+    #source p{
+        padding-top:10px;
+    }
+    
+}
+
+@media (max-width:725px){
+
+    #intro1 h2{
+       font-size:50px;
+       bottom:30px;
+    }
+
+    #family h2{
+        font-size:50px;
+        padding-top:30px;
+        padding-bottom:15px;
+    }
+
+    #trojan h2, #source h2{
+        font-size:50px;
+        padding-top:30px;
+    }
+
+    #intro1 p{
+        margin-right: 0;
+        margin-top:0;
+    }
+
+    .imageSet2{
+        display: flex;
+        justify-content: center;  
+        align-items: flex-start;
+        gap: 0;               
+        width: fit-content;      
+        margin: 0 auto;         
+        padding-bottom: 50px;
+        right:0;
+    }
+
+    .imageSet2 img{
+        width:180px;            
+        height:230px;
+        clip-path: ellipse(47% 50% at 50% 50%);
+        object-fit: cover;
+        right:0;
+    }
+
+    .imageSet2 .middle{
+        margin-left: -50px;     
+        right:0;
+    }
+
+    .imageSet2 .right{
+        margin-left: -50px;     
+        right:0;
+    }
+
+    footer{
+        padding:40px 20px;
+    }
+
+    footer p{
+        font-size:15px;
+    }
+
+    #intro1{
+        background-image: url("image/bgC.jpg");
+    }
+}
+
+@media (max-width:665px){
+    .trojanImage2{
+        display:flex;
+    }
+
+    .trojanPart1, .trojanPart2{
+        display:block;
+    }
+}
+
+@media (max-width:600px){
+    .imageSet2{
+        padding-bottom:30px;
+    }
+
+    .headerImg .mainImg{
+        clip-path:ellipse(45% 50% at 50% 50%);
+        width:270px;
+        height:300px;
+        object-fit: cover;
+        z-index:999;
+    }
+
+    .side1, .side2{
+        clip-path:ellipse(45% 50% at 50% 50%);
+        width:250px;
+        height:280px;
+        object-fit: cover;
+    }
+
+    .title{
+        bottom:40px;
+        left:30px;
+    }
+    
+    .title h1{
+        color:white;
+        font-size:70px;
+        line-height:70px;
+    }
+    
+    .title h5{
+        color:white;
+        font-weight:100;
+        font-size:30px;
+    }
+
+    .HelenImg img{
+        width: 100%;
+        height: 230px;
+        object-position: center -90px;
+    }
+
+    #intro1{
+        padding: 0 30px 0 30px;
+        margin-top:60px;
+    }
+
+    #intro1 h2, #intro2 h2, #family h2, #trojan h2,  #source h2{
+        font-size:43px;
+    }
+
+    #intro1 p{
+        margin-bottom:60px;
+    }
+
+    .trojanText2, .trojanText1{
+        padding-left:0;
+    }
+
+    .trojanText1{
+        margin-left:0;
+        padding-right:0;
+    }
+
+    .HelenIntroText{
+        padding: 30px 30px 30px 30px;
+    }
+
+    #intro2 h3{
+        font-size:40px;
+        line-height:42px;
+    }
+
+    #family{
+        margin-top:60px;
+        padding: 0 30px 0 30px;
+    }
+
+    #family h2{
+        line-height:50px;
+    }
+
+    #family p{
+        padding-bottom:30px;
+    }
+
+    #trojan, #source{
+        padding:0 30px 0 30px;
+    }
+
+    .trojanText1{
+        padding-top:10px;
+        padding-bottom:20px;
+    }
+
+    .trojanImage1, .trojanImage2{
+        margin: 0 auto;
+        width:fit-content;
+    }
+
+    .trojanImage2{
+        position:relative;
+        bottom:30px;
+    }
+
+    .trojanImage2 img{
+        margin-bottom:0;
+    }
+
+    .trojanPart1{
+        padding-bottom:0;
+    }
+
+    .trojanText2{
+        padding-top:0;
+    }
+
+    .trojanPart2{
+        padding-bottom:30px;
+    }
+
+    #source{
+        padding-bottom:30px;
+    }
+
+    #trojan img{
+        width:180px;
+        height:230px;
+    }
+}
+
+@media (max-width:530px){
+    footer{
+        padding: 10% 10% 10% 10%;
+    }
+
+    footer p{
+        font-size:12px;
+    }
+
+    .headerImg .mainImg{
+        clip-path:ellipse(45% 50% at 50% 50%);
+        width:230px;
+        height:260px;
+        object-fit: cover;
+        z-index:999;
+    }
+
+    .headerImg{
+        padding-bottom:80px;
+    }
+
+    .side1, .side2{
+        clip-path:ellipse(45% 50% at 50% 50%);
+        width:210px;
+        height:240px;
+        object-fit: cover;
+    }
+
+    nav{
+        padding: 20px 20px 20px 20px;
+    }
+
+    .navElement ul{
+        line-height:34px;
+    }
+
+    .title{
+        bottom:30px;
+        left:20px;
+    }
+    
+    .title h1{
+        color:white;
+        font-size:65px;
+        line-height:60px;
+    }
+    
+    .title h5{
+        color:white;
+        font-weight:100;
+        font-size:24px;
+    }
+
+    #intro1{
+        margin-top: 50px;
+        padding: 0 20px 0 20px;
+    }
+
+    #intro1 p{
+        margin-bottom:50px;
+        padding-bottom:30px;
+    }
+
+    .HelenImg img{
+        height:180px;
+    }
+
+    .HelenIntroText{
+        padding: 20px 20px 30px 20px;
+    }
+
+    #family{
+        margin-top:50px;
+        padding: 0 20px 0 20px;
+    }
+
+    #family h2{
+        padding-top:20px;
+    }
+
+    #family p{
+        margin-left:0;
+    }
+
+    #trojan{
+        padding: 0 20px 0 20px;
+    }
+
+    #trojan h2{
+        padding-top:20px;
+    }
+
+    #source{
+        padding: 0 20px 30px 20px;
+    }
+
+    #source h2{
+        padding-top:20px;
+    }
+}
+
+@media (max-width:475px){
+    .headerImg .mainImg{
+        clip-path:ellipse(45% 50% at 50% 50%);
+        width:200px;
+        height:230px;
+        object-fit: cover;
+        z-index:999;
+    }
+
+    .headerImg{
+        padding-bottom:65px;
+    }
+
+    .side1, .side2{
+        clip-path:ellipse(45% 50% at 50% 50%);
+        width:180px;
+        height:210px;
+        object-fit: cover;
+    }
+
+    .side1{
+        position:relative;
+        left:100px;
+    }
+    
+    .side2{
+        position:relative;
+        right:100px;
+    }
+
+    .title h1{
+        color:white;
+        font-size:50px;
+        line-height:50px;
+    }
+    
+    .title h5{
+        color:white;
+        font-weight:100;
+        font-size:20px;
+    }
+
+    #intro1 h2, #intro2 h2, #family h2, #trojan h2, #source h2{
+        font-size:33px;
+    }
+
+    #intro1 h2{
+        bottom:20px;
+    }
+
+    .imageSet2 img{
+        width:150px;            
+        height:200px;
+        clip-path: ellipse(47% 50% at 50% 50%);
+        object-fit: cover;
+        right:0;
+    }
+
+    #trojan img{
+        width:130px;
+        height:160px;
+    }
+
+}
+
+@media (max-width:385px){
+    .imageSet2 img{
+        width:130px;            
+        height:150px;
+        clip-path: ellipse(47% 50% at 50% 50%);
+        object-fit: cover;
+        right:0;
+    }
+
+    .icon {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+        padding: 12px 20px 12px 20px;
+        background-color:#87AFCD;
+    }
+
+    .headerImg .mainImg{
+        clip-path:ellipse(45% 50% at 50% 50%);
+        width:170px;
+        height:190px;
+        object-fit: cover;
+        z-index:999;
+    }
+
+    .side1, .side2{
+        clip-path:ellipse(45% 50% at 50% 50%);
+        width:150px;
+        height:180px;
+        object-fit: cover;
+    }
+
+    .navElement{
+        display:none;
+    }
+
+    .headerImg{
+        padding-top:40px;
+    }
+
+    .title h1{
+        color:white;
+        font-size:40px;
+        line-height:40px;
+    }
+    
+    .title h5{
+        color:white;
+        font-weight:100;
+        font-size:15px;
+    }
+
+    .title{
+        bottom:20px;
+        left:20px;
+    }
+}
